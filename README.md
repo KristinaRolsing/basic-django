@@ -28,3 +28,6 @@ run our server in /firstapp
 `python manage.py runserver`
 
 im ordner wo venv und das projekt liegt wollen wir die git repo haben
+
+damit andere es auch richtig installieren können
+`pip freeze > requirements.txt`
