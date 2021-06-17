@@ -1,30 +1,30 @@
 # basic-django
 
 create virtual env
-virtualenv venv
+`virtualenv venv`
 
 for windows you may need
-Set-ExecutionPolicy Unrestricted -Scope Process
+`Set-ExecutionPolicy Unrestricted -Scope Process`
 
 start env in windows
-venv\Scripts\activate
+`venv\Scripts\activate`
 
 start env in gitbash
-source venv/Scripts/activate
+`source venv/Scripts/activate`
 
 end env
-deactivate
+`deactivate`
 
-pip freeze
 see what you have installed pythonwise
+`pip freeze`
 
 in our venv we want a django app
-pip install django
+`pip install django`
 
 and then create our django profect
-django-admin.py startproject firstapp
+`django-admin.py startproject firstapp`
 
 run our server in /firstapp
-python manage.py runserver
+`python manage.py runserver`
 
-im ordner wo venv und das projekt liegt wollen wir git init machen
+im ordner wo venv und das projekt liegt wollen wir die git repo haben
